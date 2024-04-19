@@ -1,5 +1,7 @@
 # Pizzaria Delícia da Serra - Sabor Artesanal em Petrópolis
 
+**https://gustodellepizza.netlify.app/**
+
 Bem-vindo ao repositório de um site de uma Pizzaria! Somos uma pizzaria apaixonada por criar experiências gastronômicas excepcionais em Petrópolis, agora também disponíveis para entrega em sua casa.
 
 ## 🍕 Sobre Nós
