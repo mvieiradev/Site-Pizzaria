@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gusto</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="icon" href="img/gusto.png" type="img/gusto.png">
+  <link rel="shortcut icon" href="img/gusto.png" type="img/gusto.png">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#food">Categoria</a></li>
+                <li><a href="#food-combo">Combos</a></li>
+                <li><a href="#food-menu">Cardapio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+            <h1 class="logo">Gusto Delle Pizza</h1>
+        </div>
+    </nav>
+
+      <section class="showcase-area" id="showcase"> <!-- Tela inicial -->
+        <div class="showcase-container">
+          <h1 class="Antwerp" id="home">Sabor fresco com qualidade garantida</h1>
+          <br>
+          <a href="https://api.whatsapp.com/send/?phone=24981251819&text&type=phone_number&app_absent=0" class="btn">
+            <i class="fab fa-whatsapp"></i> Whatsapp
+          </a>
+          <button onclick="redirectToSection('#food-combo')" class="btn">
+            <i class="fab fa-"></i> Combos</button>
+        </div>
+      </section>
+
+
+      <section id="food"> <!-- Categoria -->
+        <h2 style="font-size: 200%;" >Horarios: 18:00 a 23:59</h2>
+        <h2>O que temos</h2>
+        <div class="food-container container">
+          <div class="food-type fruite"><!-- inicio -->
+            <div class="button-container">  
+              <button onclick="redirectToSection('#food-menu')" class="learn-more">Tradicionais</button>
+            </div>
+            <div class="img-container">
+              <img src="img/pizza.png" alt="error" />
+            </div>
+          </div><!-- Fim -->
+          <div class="food-type vegetable"><!-- inicio -->
+            <div class="button-container">
+              <button onclick="redirectToSection('#food-menu-especiais')" class="learn-more">Especiais</button>
+            </div>
+            <div class="img-container">
+              <img src="img/especial.png" alt="error" />
+            </div>
+          </div><!-- Fim -->
+          <div class="food-type grin"><!-- inicio -->
+            <div class="button-container">
+              <button onclick="redirectToSection('#food-menu-Doces')" class="learn-more">Doces</button>
+            </div>
+            <div class="img-container">
+              <br>
+              <img style="width: 80%; height: auto;" src="img/Doce.png" alt="error" />
+            </div>
+          </div><!-- inicio -->
+          <div class="food-type grin"><!-- inicio -->
+            <div class="button-container">
+              <button onclick="redirectToSection('#food-menu-Doces')" class="learn-more">Combos</button>
+            </div>
+            <div class="img-container">
+              <br>
+              <img style="width: 80%; height: auto;" src="img/combo.jpg" alt="error" />
+            </div>
+          </div><!-- inicio -->
+          <div class="food-type grin"><!-- inicio -->
+            <div class="button-container">
+              <button onclick="redirectToSection('#food-menu-Doces')" class="learn-more">Bebidas</button>
+            </div>
+            <div class="img-container">
+              <br>
+              <img style="width: 80%; height: auto;" src="img/Bebidas.jpeg" alt="error" />
+            </div>
+          </div><!-- inicio -->
+        </div>
+      </section>
+
+      <section id="food-combo"> <!-- Combos -->
+        <h2 class="food-menu-heading">Combos</h2>
+        <div class="food-menu-container container">
+          <div class="food-menu-item">
+            <div class="food-img">
+              <img src="img/combo.jpg" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">----------</h2>
+              <p style="font-size: 98%;" >----------
+              </p>
+              <p class="food-price">----------</p>
+            </div>
+          </div>
+          <div class="food-menu-item">
+            <div class="food-img">
+              <img
+                src="img/combo.jpg"
+                alt="error"
+              />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">----------</h2>
+              <p style="font-size: 98%;">----------
+              </p>
+              <p class="food-price">----------</p>
+            </div>
+          </div>
+          <div class="food-menu-item">
+            <div class="food-img">
+              <img src="img/combo.jpg" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">----------</h2>
+              <p style="font-size: 98%;"> ----------
+              </p>
+              <p class="food-price">----------/p>
+            </div>
+          </div>
+          <div class="food-menu-item">
+            <div class="food-img">
+              <img src="img/combo.jpg" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">----------</h2>
+              <p style="font-size: 98%;">----------
+              </p>
+              <p class="food-price">----------</p>
+            </div>
+          </div>
+          <div class="food-menu-item">
+            <div class="food-img">
+              <img src="img/combo.jpg" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">----------</h2>
+              <p style="font-size: 98%;">----------
+              </p>
+              <p class="food-price">----------</p>
+            </div>
+          </div>
+          <div class="food-menu-item">
+            <div class="food-img">
+              <img src="img/combo.jpg" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">----------</h2>
+              <p style="font-size: 98%;">----------
+              </p>
+              <p class="food-price">----------</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="food-menu"> <!-- Cardapio Pizzas tradicionais -->
+        <h2 class="food-menu-heading">Menu</h2>
+        <h1 style="font-size: 200%;" class="food-menu-heading">Pizzas Tradicionais 30cm- 35cm</h1>
+        <div class="food-menu-container container">
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/pizza.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Alho Poró</h2>
+              <p style="font-size: 98%;" >Mohlo de Tomate Pelati, Mussarela, Alho Poró Catupiry e Parmesão
+              </p>
+              <p class="food-price">Preço: R$50,90 R$58,90</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/pizza.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Mozzarella</h2>
+              <p style="font-size: 98%;" >Molho de Tomate Pelati, Mussarela e Orégano
+              </p>
+              <p class="food-price">Preço: R$46,90 R$52,90</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/pizza.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Marguerita</h2>
+              <p style="font-size: 98%;" >Molho de Tomate Pelati, Mussarela, Tomate Cereja e Manjericão
+              </p>
+              <p class="food-price">Preço: R$49,90 R$54,90</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/pizza.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Frango C/ Catupiry</h2>
+              <p style="font-size: 98%;" >Molho de Tomate Pelati, Mussarela, Frango, Catupiry e Orégano
+              </p>
+              <p class="food-price">Preço: R$51,90 R$59,90</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/pizza.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Calabresa</h2>
+              <p style="font-size: 98%;" >Molho de Romate Pelati, Mussatela, Calabresa, Cebola Roxa e Orégano
+              </p>
+              <p class="food-price">Preço: R$50,90 R$57,90</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/pizza.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Bacon</h2>
+              <p style="font-size: 98%;">Molho de Tomate Pelati, Mussarela, Bacon, Grana Padano e Alho Torrado
+              </p>
+              <p class="food-price">Preço: R$52,90 R$60,90</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/pizza.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Portuguesa</h2>
+              <p style="font-size: 98%;" >Mohlo de Tomate Pelati, Mussatela, Presunto, Calabresa, Pimentão Vermelho, Cebola Roxa, Azeitona Preta, Ovo de Codorna e Orégano
+              </p>
+              <p class="food-price">Preço: R$52,90 R$60,90</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/pizza.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">4Formaggi</h2>
+              <p style="font-size: 98%;">Mussarela, Provolone, Gorgonzola, Grana Padano e Manjericão
+              </p>
+              <p class="food-price">Preço: R$52,90 R$62,90</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/pizza.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Parisiense</h2>
+              <p style="font-size: 98%;" >Molho de Tomate Palati, Mussatela, Presunto, Champignons e Alho Poró
+              </p>
+              <p class="food-price">Preço: R$50,90 R$58,90</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/pizza.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">5 Queijos</h2>
+              <p style="font-size: 98%;" >Mussarela, Provolone, Gorgonzola, Catupiry, Manjericão e Grana Padano
+              </p>
+              <p class="food-price">Preço: R$60,90 R$70,90</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/pizza.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Lombo Canadense</h2>
+              <p style="font-size: 98%;">Molho de Tomate Pelati, Mussarela, Lombo e Catupiry
+              </p>
+              <p class="food-price">Preço: R$51,90 R$59,90</p>
+            </div>
+          </div><!-- Final -->
+        </div>
+      </section>
+
+      <section id="food-menu-especiais"> <!-- Cardapio Pizzas Especiais -->
+        <h1 style="font-size: 200%;" class="food-menu-heading">Pizzas Especiais 30cm- 35cm</h1>
+        <div class="food-menu-container container">
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/especial.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Calabresa imperial</h2>
+              <p style="font-size: 98%;" >Molho de Tomate Pelati, Mussarela, Calabresa, Cebola Roxa, Azeitona Preta, Catupiry e Orégano
+              </p>
+              <p class="food-price">Preço: R$54,90 R$61,90</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/especial.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Pepperoni</h2>
+              <p style="font-size: 98%;" >Molho de Tomate Pelati, Mussarela, Pepperoni, Grana Padano e Manjericão
+              </p>
+              <p class="food-price">Preço: R$58,90 R$64,90</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/especial.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Lombo d' Gusto</h2>
+              <p style="font-size: 98%;">Molho de Tomate Pelati, Mussarelam, Lombo, Catupiry, Alho Poró e Alho Torrado
+              </p>
+              <p class="food-price">Preço: R$54,90 R$61,90</p>
+            </div>
+          </div><!-- Final -->
+        </div>
+      </section>
+      
+      <section id="food-menu-doces"> <!-- Cardapio Pizzas Doces -->
+        <h1 style="font-size: 200%;" class="food-menu-heading">Pizzas Doces 30cm</h1>
+        <div class="food-menu-container container">
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/Doce.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Nutella</h2>
+              <p style="font-size: 98%;" >Nutella, Morango e Castanhas
+              </p>
+              <p class="food-price">Preço: R$54,90</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/Doce.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Prestigio super</h2>
+              <p style="font-size: 98%;" >Nutella e Coco Ralado
+              </p>
+              <p class="food-price">Preço: R$52,90</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/Doce.png" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Doce de Leite</h2>
+              <p style="font-size: 98%;" >Doce de Leite e Amendoas
+              </p>
+              <p class="food-price">Preço: R$49,90</p>
+            </div>
+          </div><!-- Final -->
+        </div>
+      </section>
+
+      <hr class="linha-horizontal">
+
+      <section id="food-menu-doces"> <!-- Bebidas -->
+        <h1 style="font-size: 200%;" class="food-menu-heading">Bebidas</h1>
+        <div class="food-menu-container container">
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/Bebidas.jpeg" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Coca-Cola/Guaraná-Antartica 1,5L</h2>
+              <p class="food-price">Preço: R$12:00</p>
+            </div>
+          </div><!-- Final -->
+          <div class="food-menu-item"><!-- Pizza -->
+            <div class="food-img">
+              <img src="img/lata.jpeg" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Coca-Cola/Guaraná-Antartica Lata 350ml</h2>
+              <p class="food-price">Preço: R$06,00</p>
+            </div>
+          </div><!-- Final -->
+        </div>
+      </section>
+      <hr class="linha-horizontal">
+
+      <section id="about"> <!-- Sobre nos -->
+        <div class="about-wrapper container">
+          <div class="about-text">
+            <p class="small">Sobre Nós</p>
+            <h2>Há menos de 1 ano, com foco em pizza.</h2>
+            <p>
+              Somos uma pizzaria apaixonada por criar experiências gastronômicas excepcionais. Apesar de nossa recente chegada ao mercado, estamos determinados a conquistar o paladar de Petrópolis com nossas pizzas artesanais e saborosas. Desde o primeiro dia, buscamos oferecer qualidade e inovação em cada fatia, tornando-nos rapidamente um destino favorito para os amantes de pizza na região. Junte-se a nós nesta jornada deliciosa e descubra o que torna nossa pizzaria única.
+            </p>
+          </div>
+          <div class="about-img">
+            <img src="img/gusto.png" alt="food" />
+          </div>
+        </div>
+      </section>
+
+      <footer id="Contato">
+        <div class="container-footer">
+            <div class="row-footer">
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><a>Horário de Funcionamento: 18:00/00:00</a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+                <!-- footer col-->
+                
+                <!--end footer col-->
+                <!-- footer col-->
+                <div class="footer-col">
+                  <h4 style="font-size: 100%;" >+55 24 98125 1819</h4>
+                    <div class="medias-socias">
+                        <a href="https://api.whatsapp.com/send/?phone=24981251819&text&type=phone_number&app_absent=0"> <i class="fab fa-whatsapp"></i> </a>
+                        <h4 style="font-size: 100%;" >@gustodellepizza</h4>
+                        <a href="https://www.instagram.com/gustodellepizza/"><i class="fab fa-instagram"></i></a>
+                    </div>
+
+                </div>
+                <!--end footer col-->
+                <div class="credit">&copy; copyright @ 2024 by <span>Miguel Araujo</span> | all rights reserved!</div>
+            </div>
+          </div>
+        </footer>
+
+      <script>
+        function redirectToSection(sectionId) {
+          // Função para redirecionar para a seção especificada
+          const section = document.querySelector(sectionId);
+          if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+        </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="main.js"></script>
+</body>
+</html>
